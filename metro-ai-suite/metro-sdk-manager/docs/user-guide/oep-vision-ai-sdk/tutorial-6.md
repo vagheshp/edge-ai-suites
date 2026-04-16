@@ -1,6 +1,6 @@
-# Metro Vision AI SDK - Tutorial 6
+# OEP Vision AI SDK - Tutorial 6
 
-This tutorial walks you through deploying Intel® SceneScape using the prebuilt Docker images already downloaded by the Metro Vision AI SDK install script.
+This tutorial walks you through deploying Intel® SceneScape using the prebuilt Docker images already downloaded by the OEP Vision AI SDK install script.
 
 ## Overview
 
@@ -20,17 +20,17 @@ Upon completion of this tutorial, you will be able to:
 
 ## Prerequisites
 
-- Metro Vision AI SDK installed (the install script downloads SceneScape images and clones the repo)
+- OEP Vision AI SDK installed (the install script downloads SceneScape images and clones the repo)
 - Docker and Docker Compose installed and running
 
 ## Tutorial Steps
 
 ### Step 1: Navigate to the SceneScape Repository
 
-The Metro Vision AI SDK install script already cloned SceneScape. Navigate to it:
+The OEP Vision AI SDK install script already cloned SceneScape. Navigate to it:
 
 ```bash
-cd ~/metro/scenescape
+cd ~/oep/scenescape
 ```
 
 ### Step 2: Initialize Secrets and Models

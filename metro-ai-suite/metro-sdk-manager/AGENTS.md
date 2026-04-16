@@ -1,10 +1,10 @@
-# AGENTS.md — Metro SDK Manager
+# AGENTS.md — OEP SDK Manager
 
-You are an AI assistant working on the Metro SDK Manager project. This document provides instructions, patterns, and boundaries for making changes to this codebase.
+You are an AI assistant working on the OEP SDK Manager project. This document provides instructions, patterns, and boundaries for making changes to this codebase.
 
 ## Project Overview
 
-Metro SDK Manager is a comprehensive development tool that streamlines discovering, installing, and managing multiple SDKs for Intel edge AI applications. It consists of two main parts:
+OEP SDK Manager is a comprehensive development tool that streamlines discovering, installing, and managing multiple SDKs for Intel edge AI applications. It consists of two main parts:
 
 1. **Documentation UI** (`docs/`) — A Sphinx-based documentation site with an embedded interactive SDK selector built with HTML, CSS, and JavaScript. Includes tutorial sections for each SDK.
 2. **Installation Scripts** (`scripts/`) — Bash scripts that install each SDK by pulling Docker images and cloning source repositories from GitHub.
@@ -13,8 +13,8 @@ Metro SDK Manager is a comprehensive development tool that streamlines discoveri
 
 | SDK | Install Script | Tutorials | Description |
 |:----|:---------------|:----------|:------------|
-| Metro Vision AI SDK | `scripts/metro-vision-ai-sdk.sh` | `docs/user-guide/metro-vision-ai-sdk/` | DLStreamer, OpenVINO, Pipeline Server, SceneScape — visual AI inference & spatial analytics |
-| Metro Gen AI SDK | `scripts/metro-gen-ai-sdk.sh` | `docs/user-guide/metro-gen-ai-sdk/` | Audio Analyzer, VLM serving, embedding, document ingestion |
+| OEP Vision AI SDK | `scripts/oep-vision-ai-sdk.sh` | `docs/user-guide/oep-vision-ai-sdk/` | DLStreamer, OpenVINO, Pipeline Server, SceneScape — visual AI inference & spatial analytics |
+| OEP Gen AI SDK | `scripts/oep-gen-ai-sdk.sh` | `docs/user-guide/oep-gen-ai-sdk/` | Audio Analyzer, VLM serving, embedding, document ingestion |
 | Visual AI Demo Kit | `scripts/visual-ai-demo-kit.sh` | `docs/user-guide/visual-ai-demo-kit/` | DLStreamer Pipeline Server, Node-RED, Grafana, MQTT, MediaMTX |
 
 Each SDK installs Docker container images and clones GitHub repositories (`edge-ai-libraries`, `edge-ai-suites`).
@@ -35,12 +35,12 @@ metro-sdk-manager/
 │   └── user-guide/
 │       ├── index.md                   # Landing page (embeds installer iframe)
 │       ├── release-notes.md
-│       ├── metro-vision-ai-sdk/       # Vision SDK tutorials (get-started + tutorials 1-6)
-│       ├── metro-gen-ai-sdk/          # Gen AI SDK tutorials (get-started)
+│       ├── oep-vision-ai-sdk/       # Vision SDK tutorials (get-started + tutorials 1-6)
+│       ├── oep-gen-ai-sdk/          # Gen AI SDK tutorials (get-started)
 │       └── visual-ai-demo-kit/        # Demo Kit tutorials (get-started + tutorials 1-3)
 ├── scripts/
-│   ├── metro-vision-ai-sdk.sh         # Vision SDK installer
-│   ├── metro-gen-ai-sdk.sh            # Gen AI SDK installer
+│   ├── oep-vision-ai-sdk.sh         # Vision SDK installer
+│   ├── oep-gen-ai-sdk.sh            # Gen AI SDK installer
 │   └── visual-ai-demo-kit.sh          # Visual AI Demo Kit installer
 ├── .gitignore
 ├── README.md
@@ -69,15 +69,15 @@ metro-sdk-manager/
 
 ```bash
 # Install a specific SDK
-bash scripts/metro-vision-ai-sdk.sh
-bash scripts/metro-gen-ai-sdk.sh
+bash scripts/oep-vision-ai-sdk.sh
+bash scripts/oep-gen-ai-sdk.sh
 bash scripts/visual-ai-demo-kit.sh
 
 # Skip specific steps
-bash scripts/metro-vision-ai-sdk.sh --skip-system-check --skip-docker --skip-images --skip-git-clone
+bash scripts/oep-vision-ai-sdk.sh --skip-system-check --skip-docker --skip-images --skip-git-clone
 
 # Show help for any script
-bash scripts/metro-vision-ai-sdk.sh --help
+bash scripts/oep-vision-ai-sdk.sh --help
 ```
 
 ### Local Linting (standalone tools)
