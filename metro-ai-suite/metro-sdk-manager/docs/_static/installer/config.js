@@ -169,8 +169,12 @@ const CONFIG = {
             "DLStreamer Pipeline Server",
             "OpenVINO",
             "OpenVINO Model Server",
+            "SceneScape Manager",
+            "SceneScape Controller",
+            "SceneScape Autocalibration",
             "Edge AI Libraries - Repo",
-            "Edge AI Suites - Repo"
+            "Edge AI Suites - Repo",
+            "SceneScape - Repo"
           ]
         },
         {
@@ -488,6 +492,7 @@ const CONFIG = {
             { text: "DLStreamer Pipeline Server", url: "https://docs.openedgeplatform.intel.com/dev/edge-ai-libraries/dlstreamer-pipeline-server/index.html" },
             { text: "OpenVINO", url: "https://docs.openvino.ai/2025/get-started.html" },
             { text: "OpenVINO Model Server", url: "https://docs.openvino.ai/2025/model-server/ovms_what_is_openvino_model_server.html" },
+            { text: "Intel® SceneScape", url: "https://github.com/open-edge-platform/scenescape" },
             { text: "Edge AI Libraries", url: "https://docs.openedgeplatform.intel.com/dev/ai-libraries.html"},
             { text: "Edge AI Suites", url: "https://docs.openedgeplatform.intel.com/dev/ai-suite-metro.html"}
           ]

@@ -20,6 +20,7 @@
 repositories=(
   "https://github.com/open-edge-platform/edge-ai-libraries|release-2026.0.0|edge-ai-libraries"
   "https://github.com/open-edge-platform/edge-ai-suites|release-2026.0.0|edge-ai-suites"
+  "https://github.com/open-edge-platform/scenescape|main|scenescape"
 )
 
 images=(
@@ -27,6 +28,9 @@ images=(
   "openvino/ubuntu24_dev:2026.0.0"
   "intel/dlstreamer:2026.0.0-ubuntu24"
   "intel/dlstreamer-pipeline-server:2026.0.0-ubuntu24"
+  "intel/scenescape-manager:v2026.0.0"
+  "intel/scenescape-controller:v2026.0.0"
+  "intel/scenescape-autocalibration:v2026.0.0"
 )
 
 NAME="Metro Vision AI SDK"

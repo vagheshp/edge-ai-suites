@@ -13,7 +13,7 @@ Metro SDK Manager is a comprehensive development tool that streamlines discoveri
 
 | SDK | Install Script | Tutorials | Description |
 |:----|:---------------|:----------|:------------|
-| Metro Vision AI SDK | `scripts/metro-vision-ai-sdk.sh` | `docs/user-guide/metro-vision-ai-sdk/` | DLStreamer, OpenVINO, Pipeline Server — visual AI inference |
+| Metro Vision AI SDK | `scripts/metro-vision-ai-sdk.sh` | `docs/user-guide/metro-vision-ai-sdk/` | DLStreamer, OpenVINO, Pipeline Server, SceneScape — visual AI inference & spatial analytics |
 | Metro Gen AI SDK | `scripts/metro-gen-ai-sdk.sh` | `docs/user-guide/metro-gen-ai-sdk/` | Audio Analyzer, VLM serving, embedding, document ingestion |
 | Visual AI Demo Kit | `scripts/visual-ai-demo-kit.sh` | `docs/user-guide/visual-ai-demo-kit/` | DLStreamer Pipeline Server, Node-RED, Grafana, MQTT, MediaMTX |
 
@@ -35,7 +35,7 @@ metro-sdk-manager/
 │   └── user-guide/
 │       ├── index.md                   # Landing page (embeds installer iframe)
 │       ├── release-notes.md
-│       ├── metro-vision-ai-sdk/       # Vision SDK tutorials (get-started + tutorials 1-5)
+│       ├── metro-vision-ai-sdk/       # Vision SDK tutorials (get-started + tutorials 1-6)
 │       ├── metro-gen-ai-sdk/          # Gen AI SDK tutorials (get-started)
 │       └── visual-ai-demo-kit/        # Demo Kit tutorials (get-started + tutorials 1-3)
 ├── scripts/
