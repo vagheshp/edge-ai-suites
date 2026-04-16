@@ -183,5 +183,6 @@ tutorial-2
 tutorial-3
 tutorial-4
 tutorial-5
+tutorial-6
 :::
 hide_directive-->
