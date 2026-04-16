@@ -104,7 +104,7 @@ http://localhost:8101
   \- Comprehensive documentation for multimodal audio processing capabilities
 - [Document Ingestion - pgvector](https://github.com/open-edge-platform/edge-ai-libraries/blob/main/microservices/document-ingestion/pgvector/docs/user-guide/get-started.md)
   \- Vector database integration and document processing workflows
-- [Multimodal Embedding Serving](https://github.com/open-edge-platform/edge-ai-libraries/blob/main/microservices/multimodal-embedding-serving/docs/user-guide/Overview.md)
+- [Multimodal Embedding Serving](https://github.com/open-edge-platform/edge-ai-libraries/blob/main/microservices/multimodal-embedding-serving/docs/user-guide/index.md)
   \- Embedding generation service architecture and API documentation
 - [Visual Data Preparation For Retrieval](https://github.com/open-edge-platform/edge-ai-libraries/blob/main/microservices/visual-data-preparation-for-retrieval/vdms/docs/user-guide/Overview.md)
   \- VDMS integration and visual data management workflows

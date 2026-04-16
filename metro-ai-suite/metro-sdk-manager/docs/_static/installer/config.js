@@ -415,7 +415,7 @@ const CONFIG = {
           links: [
             { text: "Audio Analyzer", url: "https://docs.openedgeplatform.intel.com/dev/edge-ai-libraries/audio-analyzer/index.html" },
             { text: "Document Ingestion - pgvector", url: "https://github.com/open-edge-platform/edge-ai-libraries/blob/main/microservices/document-ingestion/pgvector/docs/user-guide/get-started.md" },
-            { text: "Multimodal Embedding Serving", url: "https://github.com/open-edge-platform/edge-ai-libraries/blob/main/microservices/multimodal-embedding-serving/docs/user-guide/Overview.md" },
+            { text: "Multimodal Embedding Serving", url: "https://github.com/open-edge-platform/edge-ai-libraries/blob/main/microservices/multimodal-embedding-serving/docs/user-guide/index.md" },
             { text: "Visual Data Preparation For Retrieval", url: "https://github.com/open-edge-platform/edge-ai-libraries/blob/main/microservices/visual-data-preparation-for-retrieval/vdms/docs/user-guide/Overview.md" },
             { text: "VLM OpenVINO Serving", url: "https://github.com/open-edge-platform/edge-ai-libraries/blob/main/microservices/vlm-openvino-serving/docs/user-guide/Overview.md" },
             { text: "Edge AI Libraries", url: "https://docs.openedgeplatform.intel.com/dev/ai-libraries.html"},
@@ -459,7 +459,7 @@ const CONFIG = {
           links: [
             { text: "Audio Analyzer", url: "https://docs.openedgeplatform.intel.com/dev/edge-ai-libraries/audio-analyzer/index.html" },
             { text: "Document Ingestion - pgvector", url: "https://github.com/open-edge-platform/edge-ai-libraries/blob/main/microservices/document-ingestion/pgvector/docs/user-guide/get-started.md" },
-            { text: "Multimodal Embedding Serving", url: "https://github.com/open-edge-platform/edge-ai-libraries/blob/main/microservices/multimodal-embedding-serving/docs/user-guide/Overview.md" },
+            { text: "Multimodal Embedding Serving", url: "https://github.com/open-edge-platform/edge-ai-libraries/blob/main/microservices/multimodal-embedding-serving/docs/user-guide/index.md" },
             { text: "Visual Data Preparation For Retrieval", url: "https://github.com/open-edge-platform/edge-ai-libraries/blob/main/microservices/visual-data-preparation-for-retrieval/vdms/docs/user-guide/Overview.md" },
             { text: "VLM OpenVINO Serving", url: "https://github.com/open-edge-platform/edge-ai-libraries/blob/main/microservices/vlm-openvino-serving/docs/user-guide/Overview.md" },
             { text: "Chat Q&A", url: "http://docs.openedgeplatform.intel.com/dev/edge-ai-libraries/chat-question-and-answer/index.html" },
@@ -506,7 +506,7 @@ const CONFIG = {
           links: [
             { text: "Audio Analyzer", url: "https://docs.openedgeplatform.intel.com/dev/edge-ai-libraries/audio-analyzer/index.html" },
             { text: "Document Ingestion - pgvector", url: "https://github.com/open-edge-platform/edge-ai-libraries/blob/main/microservices/document-ingestion/pgvector/docs/user-guide/get-started.md" },
-            { text: "Multimodal Embedding Serving", url: "https://github.com/open-edge-platform/edge-ai-libraries/blob/main/microservices/multimodal-embedding-serving/docs/user-guide/Overview.md" },
+            { text: "Multimodal Embedding Serving", url: "https://github.com/open-edge-platform/edge-ai-libraries/blob/main/microservices/multimodal-embedding-serving/docs/user-guide/index.md" },
             { text: "Visual Data Preparation For Retrieval", url: "https://github.com/open-edge-platform/edge-ai-libraries/blob/main/microservices/visual-data-preparation-for-retrieval/vdms/docs/user-guide/Overview.md" },
             { text: "VLM OpenVINO Serving", url: "https://github.com/open-edge-platform/edge-ai-libraries/blob/main/microservices/vlm-openvino-serving/docs/user-guide/Overview.md" },
             { text: "Chat Q&A", url: "http://docs.openedgeplatform.intel.com/dev/edge-ai-libraries/chat-question-and-answer/index.html" },

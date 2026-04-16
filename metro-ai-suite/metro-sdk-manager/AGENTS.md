@@ -147,3 +147,28 @@ Use the language-appropriate comment syntax (`#`, `//`, `/* */`).
 1. When updating Docker image versions in `scripts/`, also update the corresponding component lists in `docs/_static/installer/config.js`.
 2. Do not add gitignored build/config files (`Makefile`, `requirements.txt`, `VERSION`, `docconf/`, `docs/conf.py`, etc.) — those are managed by CI.
 3. Test install scripts with `--skip-images` for a dry-run validation.
+
+## Test Suite
+
+Tests live in `tests/` and validate the installer UI, shell scripts, and tutorial documentation.
+
+### Run all tests
+
+```bash
+bash tests/run_tests.sh
+```
+
+### Run individual suites
+
+```bash
+bash tests/run_tests.sh scripts     # Shell script validation only
+bash tests/run_tests.sh tutorials   # Tutorial markdown validation only
+bash tests/run_tests.sh links       # UI link validation only (network required)
+bash tests/run_tests.sh --offline   # All tests except network-dependent URL checks
+```
+
+### What each suite validates
+
+- **`validate_scripts.sh`** — Bash syntax (`bash -n`), ShellCheck (if installed), shebang, `set -euo pipefail`, required arrays (`repositories`, `images`), `NAME` variable, no `:latest` Docker tags, CLI flags (`--skip-system-check`, `--skip-docker`, `--skip-images`, `--skip-git-clone`, `--help`), GitHub repo URL format.
+- **`validate_tutorials.sh`** — Toctree entries in `index.md` resolve to files, each SDK has `get-started.md`, image references (`![](path)`) resolve to actual files, external URLs are reachable (skips `localhost` / placeholder URLs), H1 headings present, code fences balanced, tutorial numbering sequential.
+- **`validate_ui_links.sh`** — Extracts all URLs from `config.js` and `selector.html`, verifies each is reachable via HTTP.
