@@ -21,8 +21,6 @@ sudo apt update
 # Install performance monitoring tools
 sudo apt install -y htop intel-gpu-tools
 
-# Verify installations
-htop --version
 ```
 
 ### Newer platforms using the `xe` kernel driver (Panther Lake, Wildcat Lake, Lunar Lake, Battlemage)
