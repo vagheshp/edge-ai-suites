@@ -23,7 +23,6 @@ sudo apt install -y htop intel-gpu-tools
 
 # Verify installations
 htop --version
-intel_gpu_top --help
 ```
 
 ### Newer platforms using the `xe` kernel driver (Panther Lake, Wildcat Lake, Lunar Lake, Battlemage)
